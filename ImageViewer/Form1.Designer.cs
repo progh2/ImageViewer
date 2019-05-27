@@ -68,8 +68,49 @@
             // 
             this.imgList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgList.ImageStream")));
             this.imgList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgList.Images.SetKeyName(0, "배경 ㅋㅋ.png");
-            this.imgList.Images.SetKeyName(1, "벚.jpg");
+            this.imgList.Images.SetKeyName(0, "1.jpg");
+            this.imgList.Images.SetKeyName(1, "2.JPG");
+            this.imgList.Images.SetKeyName(2, "3.JPG");
+            this.imgList.Images.SetKeyName(3, "4.JPG");
+            this.imgList.Images.SetKeyName(4, "5.JPG");
+            this.imgList.Images.SetKeyName(5, "6.JPG");
+            this.imgList.Images.SetKeyName(6, "7.JPG");
+            this.imgList.Images.SetKeyName(7, "8.jpg");
+            this.imgList.Images.SetKeyName(8, "9.JPG");
+            this.imgList.Images.SetKeyName(9, "10.JPG");
+            this.imgList.Images.SetKeyName(10, "11.JPG");
+            this.imgList.Images.SetKeyName(11, "12.JPG");
+            this.imgList.Images.SetKeyName(12, "13.JPG");
+            this.imgList.Images.SetKeyName(13, "14.JPG");
+            this.imgList.Images.SetKeyName(14, "15.JPG");
+            this.imgList.Images.SetKeyName(15, "16.JPG");
+            this.imgList.Images.SetKeyName(16, "17.JPG");
+            this.imgList.Images.SetKeyName(17, "18.JPG");
+            this.imgList.Images.SetKeyName(18, "19.JPG");
+            this.imgList.Images.SetKeyName(19, "20.JPG");
+            this.imgList.Images.SetKeyName(20, "21.JPG");
+            this.imgList.Images.SetKeyName(21, "22.JPG");
+            this.imgList.Images.SetKeyName(22, "23.JPG");
+            this.imgList.Images.SetKeyName(23, "24.JPG");
+            this.imgList.Images.SetKeyName(24, "25.JPG");
+            this.imgList.Images.SetKeyName(25, "26.JPG");
+            this.imgList.Images.SetKeyName(26, "27.JPG");
+            this.imgList.Images.SetKeyName(27, "28.JPG");
+            this.imgList.Images.SetKeyName(28, "29.JPG");
+            this.imgList.Images.SetKeyName(29, "30.JPG");
+            this.imgList.Images.SetKeyName(30, "31.JPG");
+            this.imgList.Images.SetKeyName(31, "32.JPG");
+            this.imgList.Images.SetKeyName(32, "33.JPG");
+            this.imgList.Images.SetKeyName(33, "34.JPG");
+            this.imgList.Images.SetKeyName(34, "35.JPG");
+            this.imgList.Images.SetKeyName(35, "36.JPG");
+            this.imgList.Images.SetKeyName(36, "37.JPG");
+            this.imgList.Images.SetKeyName(37, "38.JPG");
+            this.imgList.Images.SetKeyName(38, "39.JPG");
+            this.imgList.Images.SetKeyName(39, "40.JPG");
+            this.imgList.Images.SetKeyName(40, "41.JPG");
+            this.imgList.Images.SetKeyName(41, "42.JPG");
+            this.imgList.Images.SetKeyName(42, "43.JPG");
             // 
             // Form1
             // 
@@ -84,6 +125,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "사진첩";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picImg)).EndInit();
             this.ResumeLayout(false);
 
